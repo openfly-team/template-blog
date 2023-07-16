@@ -1,6 +1,6 @@
-# @openfly/template-demo
+# @openfly/template-blog
 
-> openfly template demo
+> openfly blog template
 
 ## Usage
 
@@ -8,8 +8,8 @@
 $ npx @openfly/cli init
 
 $ ? Pick template source › - Use arrow-keys. Return to submit.
-$ ❯   Git Repository
-$     NPM Package
+$     Git Repository
+$ ❯   NPM Package
 
-$ ? Input template name › zizhuspot/fly--blog
+$ ? Input template name › @openfly/template-blog
 ```
