@@ -237,7 +237,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: <%= subtitle %>
     button:
       enable: true
       icon: fab fa-github
