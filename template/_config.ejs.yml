@@ -90,8 +90,8 @@ pagination_dir: page
 
 # Include / Exclude files
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
+# include:
+# exclude:
 ignore:
 
 # Extensions
@@ -99,6 +99,7 @@ ignore:
 sitemap:
   path: sitemap.xml
   rel: true
+
 feed:
   type:
     - atom
@@ -107,22 +108,29 @@ feed:
     - atom.xml
     - rss2.xml
   limit: false
+
 nofollow:
   enable: true
   field: site
-tag_plugins:
-  enable: true # 开关
-  priority: 1 #过滤器优先权
-  issues: false #issues标签依赖注入开关
-  link:
-    placeholder: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680881735797.png #link_card标签默认的图标图片
-  CDN:
-    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
-    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
-    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+# https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/
+live2d:
+  enable: false
+  scriptFrom: jsdelivr
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: left
+    width: 200
+    height: 400
+  mobile:
+    show: false
+
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
