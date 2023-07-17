@@ -28,7 +28,7 @@
 
 ## 新增友链
 
-参考 `source/_data/link.yml` 文件，按照格式新增友链即可。
+在 `source/_data/link.yml` 文件中，按照格式新增友链即可。
 
 ## 站点信息修改
 
@@ -43,7 +43,7 @@ keywords:
 author: <%= author %>
 ```
 
-左侧作者信息栏的描述可以在 `_config.butterfly.yml` 文件中修改：
+侧边栏作者信息栏的描述可以在 `_config.butterfly.yml` 文件中修改：
 
 ```yml
 card_author:
