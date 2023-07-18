@@ -17,13 +17,13 @@ module.exports = {
     },
     {
       type: 'text',
-      name: 'author',
-      message: 'Input author name'
+      name: 'name',
+      message: 'Input site name'
     },
     {
       type: 'text',
-      name: 'url',
-      message: 'Input site url'
+      name: 'author',
+      message: 'Input site author'
     },
     {
       type: 'text',
