@@ -57,6 +57,14 @@ card_announcement:
   content: A simple and elegant blog
 ```
 
+社交信息修改也是在 `_config.butterfly.yml` 文件中修改：
+
+```yml
+social:
+  fas fa-envelope: mailto:luozhu2021@gmail.com || Email || '#4a7dbe'
+  fab fa-twitter: https://twitter.com/luozhu2021 || Twitter || '#00acee'
+```
+
 ## 更换图片
 
 默认的头图和封面图可能不适合你，这些都在 `_config.butterfly.yml` 文件中：
