@@ -4,14 +4,14 @@
 
 ## 关于页面
 
-关于页面的内容在 `source/about/index.md` 文件中，你可以修改其中的内容。
+关于页面的内容在 `source/about/index.md` 文件中，你需要修改其中的内容。
 
 ## 新增文章
 
 > 这里保存之后就会发布到网站，所以建议在 mdnice 写好之后再上传。
 
-1. 在`source/_posts`目录下新建一个`markdown`文件，文件名格式为`英文标题.md`，例如`hello-world.md`。
-2. 在`markdown`文件头部添加如下内容：
+1. 在 `source/_posts` 目录下新建一个 `markdown` 文件，文件名格式为 `英文标题.md`，例如 `hello-world.md`。
+2. 在 `markdown` 文件头部添加如下内容：
     ```md
     ---
     title: 标题
@@ -89,3 +89,21 @@ cover:
     - https://s2.loli.net/2023/07/17/tjNbDh17cTQiJMB.png
     - https://s2.loli.net/2023/07/17/eS6iXfpscLyUhVC.png
 ```
+
+## 本地运行
+
+> 推荐 github 在线编辑，如果你本来就会用 git，那可以尝试本地运行。
+
+```sh
+# 克隆仓库
+$ git clone https://github.com/zizhuspot/<%= name %>.git
+# 安装依赖
+$ yarn install
+# 运行
+$ yarn server
+```
+
+## 学习资源
+
+- [GitHub 快速入门](https://docs.github.com/zh/get-started/quickstart)
+- [猴子都能看懂的GIT入门](https://backlog.com/git-tutorial/cn/)
