@@ -4,7 +4,7 @@
   "description": "openfly blog template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openfly-team/template-blog.git"
+    "url": "git+https://github.com/zizhuspot/template-blog.git"
   },
   "keywords": [
     "openfly",
@@ -22,7 +22,7 @@
   "author": "紫竹 <luozhu2021@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openfly-team/template-blog/issues"
+    "url": "https://github.com/zizhuspot/template-blog/issues"
   },
-  "homepage": "https://github.com/openfly-team/template-blog#readme"
+  "homepage": "https://github.com/zizhuspot/template-blog#readme"
 }
