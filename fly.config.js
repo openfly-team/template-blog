@@ -2,6 +2,11 @@ module.exports = {
   prompts: [
     {
       type: 'text',
+      name: 'repo',
+      message: 'Input site repo name'
+    },
+    {
+      type: 'text',
       name: 'title',
       message: 'Input site title'
     },
@@ -17,8 +22,8 @@ module.exports = {
     },
     {
       type: 'text',
-      name: 'name',
-      message: 'Input site name'
+      name: 'url',
+      message: 'Input site url'
     },
     {
       type: 'text',
