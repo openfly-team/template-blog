@@ -1,5 +1,5 @@
-- class_name: 友情链接
-  class_desc: 有朋自网线来，不亦乐乎
+- class_name: Friends
+  class_desc: How happy we are, To meet friends from afar!
   link_list:
   - name: "紫竹的博客"
     link: "https://youngjuning.js.org"

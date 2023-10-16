@@ -8,7 +8,7 @@ subtitle: <%= subtitle %>
 description: <%= description %>
 keywords:
 author: <%= author %>
-language: zh-CN
+language: en
 timezone: Asia/Hong_Kong
 
 # URL
