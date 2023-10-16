@@ -34,6 +34,11 @@ module.exports = {
       type: 'text',
       name: 'logo',
       message: 'Input site logo'
+    },
+    {
+      type: 'text',
+      name: 'adsense',
+      message: 'Input adsense id'
     }
   ]
 }

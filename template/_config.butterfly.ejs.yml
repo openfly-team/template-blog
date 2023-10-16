@@ -8,17 +8,18 @@ nav:
   fixed: false # fixed navigation bar
 
 # Menu 目錄
+# Menu 目錄
 menu:
-  首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  逛逛: /random/ || fas fa-random
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
+  Random: /random/ || fas fa-random
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # 友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  # Friends: /link/ || fas fa-link
+  About: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -591,14 +592,14 @@ google_adsense:
   enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-7029815294762181
+  client: ca-pub-<%= adsense =>
   enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)
 ad:
-  # index: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7029815294762181" data-ad-slot="6412968057" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  # aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7029815294762181" data-ad-slot="9692865372" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  # post: <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7029815294762181"data-ad-slot="4521975302"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  # index:
+  # aside:
+  # post:
 
 # Verification (站長驗證)
 # --------------------------------------
