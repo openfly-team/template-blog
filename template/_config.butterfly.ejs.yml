@@ -217,7 +217,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: <a href="/rss2.xml" target="_blank">RSS2</a> | <a href="/privacy/" target="_blank">隐私政策</a> | <a href="/atom.xml" target="_blank">Atom</a>
+  custom_text: <a href="/rss2.xml" target="_blank">RSS2</a> | <a href="/privacy/" target="_blank">Privacy</a> | <a href="/atom.xml" target="_blank">Atom</a>
   copyright: false # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -592,7 +592,7 @@ google_adsense:
   enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-<%= adsense =>
+  client: ca-pub-<%= adsense %>
   enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)

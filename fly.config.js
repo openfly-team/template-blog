@@ -22,11 +22,6 @@ module.exports = {
     },
     {
       type: 'text',
-      name: 'url',
-      message: 'Input site url'
-    },
-    {
-      type: 'text',
       name: 'author',
       message: 'Input site author'
     },
