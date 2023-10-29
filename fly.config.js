@@ -32,6 +32,11 @@ module.exports = {
     },
     {
       type: 'text',
+      name: 'banner',
+      message: 'Input site banner'
+    },
+    {
+      type: 'text',
       name: 'adsense',
       message: 'Input adsense id'
     }
