@@ -7,6 +7,11 @@ module.exports = {
     },
     {
       type: 'text',
+      name: 'url',
+      message: 'Input site url'
+    },
+    {
+      type: 'text',
       name: 'title',
       message: 'Input site title'
     },
